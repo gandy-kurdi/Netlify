@@ -1,0 +1,8 @@
+[build]
+  command = ""
+  publish = "."
+  edge_functions = "api-handlers"   
+
+[[edge_functions]]
+  path = "/*"
+  function = "forwarder"
